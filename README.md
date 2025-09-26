@@ -5,7 +5,7 @@
 This project aims to:
 - Extend [Scheibenreif et al. (2022)](https://doi.org/10.1109/TGRS.2022.3160827) and [Global-NO2-Estimation](https://github.com/HSG-AIML/Global-NO2-Estimation)
 - Jointly model multiple pollutants (NO₂, SO₂, PM2.5, ...)
-- Incorporate temporal features for short-term event detection
+- Incorporate temporal features for increased model performance
 - Target 10m spatial, (sub-)monthly temporal resolution
 
 **Status:**  
