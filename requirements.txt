@@ -1,0 +1,5 @@
+# Example libraries
+hydra-core
+wandb
+torch==2.4.1
+torchvision==0.19.1
