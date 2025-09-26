@@ -1,26 +1,26 @@
-# IBM
+# Extending Global Air Pollutant Estimation
 
-## Installation
-```bash
-# Installation instrutions.
-# Example
-conda create -n IBM python=3.10
-pip install -r requirements.txt
-```
+>  **Goal:** Develop a deep learning framework for high-resolution, temporally-dependent air quality estimation using satellite data fusion.
 
-## Data Preparation
-```bash
-# Instructions for data preparation
-```
+This project aims to:
+- Extend [Scheibenreif et al. (2022)](https://doi.org/10.1109/TGRS.2022.3160827) and [Global-NO2-Estimation](https://github.com/HSG-AIML/Global-NO2-Estimation)
+- Jointly model multiple pollutants (NO₂, SO₂, PM2.5, ...)
+- Incorporate temporal features for short-term event detection
+- Target 10m spatial, (sub-)monthly temporal resolution
 
-## Training
-```bash
-# Training instructions
-# Example
-PYTHONPATH=./src python scripts/train.py --config-name=train
-```
+**Status:**  
+Project setup stage. Code and documentation will be added soon.
 
-## Evaluation
-```bash
-# Evaluation instructions
-```
+## References
+
+- [Original codebase: Global-NO2-Estimation](https://github.com/HSG-AIML/Global-NO2-Estimation?tab=readme-ov-file)
+- Scheibenreif et al. (2022): _Toward Global Estimation of Ground-Level NO₂ Pollution With Deep Learning and Remote Sensing_. [IEEE TGRS](https://doi.org/10.1109/TGRS.2022.3160827)
+
+Team
+ETH Zürich semester project in scope of Geomatics and Space Systems Masters Students
+
+**Supervision by Linus Scheibenreif and Prof. Konrad Schindler of [ETH PRS](https://github.com/prs-eth)**
+
+## License
+
+To be specified.
